@@ -1,11 +1,14 @@
 import { Fragment } from 'react';
 
-import './App.css';
+import Home from './components/home/home.component';
+
 
 function App() {
   return (
     <Fragment>
-      <h1>Todo List App</h1>
+      <section className='h-screen flex justify-center items-center'>
+        <Home />
+      </section>
     </Fragment>
   );
 }
